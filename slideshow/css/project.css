@@ -1,0 +1,135 @@
+.blizzardslides {
+	width: 520px;
+	height: 195px;
+	margin: 80px auto;
+	font-size: 20px;
+	position: relative;
+}
+
+.blizzardslides .slideswrapper {
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+}
+
+.blizzardslides a {
+	width: 125px;
+	height: 90px;
+	padding-top: 60px;
+	position: absolute;
+	top: 1px;
+	z-index: 1;
+	color: #bada55;
+	font-size: 55px;
+
+}
+
+.blizzardslides .prev {
+	left: -75px;
+	padding-left: 25px;
+}
+
+.blizzardslides .next {
+	right: -75px;
+	padding-right: 25px;
+	text-align: right;
+	
+}
+
+.blizzardslides .img {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/********************************************************** Vanilla JS Gallery */
+
+.slideshow {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.velkyobrazek {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    background-size: cover;
+}
+
+.velkyobrazek img {
+	max-width: 960px;
+	width: 100%;
+	height: auto;
+	background: #eee;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 0 auto;
+}   
+
+.galerie {
+	width: 100%; 
+	overflow: hidden; 
+	white-space: nowrap; 
+	background: #eee; 
+	border: 2px solid #ccc; 
+	padding-top: 5px;
+} 
+
+.galerie_pruh {
+	width: 100%; 
+	height: auto; 
+	margin: 50px auto 0 auto;
+	position: relative; 
+}
+
+
+.prev {
+	left: -75px;
+	padding-left: 25px;
+
+}
+
+.next {
+	right: -75px;
+	padding-right: 25px;
+	text-align: right;
+	
+}
+
+.slideshow .prev,
+.slideshow .next {
+	width: 125px;
+	height: 90px;
+	padding-top: 60px;
+	position: absolute;
+	top: 1px;
+	z-index: 1;
+	color: #bada55;
+	font-size: 55px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

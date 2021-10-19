@@ -1,0 +1,117 @@
+/* ----------------------------------------------------------------------------------------- */
+/* GENERAL STYLES */
+/* ----------------------------------------------------------------------------------------- */
+
+@font-face{font-family:"OpenSans-Light";src:url(../fonts/OpenSans-Light.ttf) format('truetype');}
+@font-face{font-family:"OpenSans-Regular";src:url(../fonts/OpenSans-Regular.ttf) format('truetype');}
+@font-face{font-family:"OpenSans-Bold";src:url(../fonts/OpenSans-Bold.ttf) format('truetype');}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    color: #3D3D3D;
+	background: #FFF;
+    
+    
+	font: 1em/1.5 'OpenSans-Light', sans-serif;
+    font-size: 100%;
+	
+    width: 100%;
+        
+	-webkit-font-smoothing: antialiased;
+    
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a:link, a:visited, a:active{text-decoration:none}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+    padding: 0 1.25em;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* CLEARFIX : vsechny floatovane elementy budou containovane, a clearovane */
+/* ----------------------------------------------------------------------------------------- */
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after {
+	content: " ";
+	display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after,
+.clear {
+	clear: both;
+}
+
+.container,
+.group,
+.menu {
+	*zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* STYLES
+/* ----------------------------------------------------------------------------------------- */
+
+h1 {
+    position: relative;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
